@@ -1,0 +1,49 @@
+.bg-image {
+  background-image: $bg-image-index;
+  background-size: $bg-cover;
+  background-repeat: $bg-no-repeat;
+  background-position: center;
+  height: $height-400px;
+  max-width: $max-width-100;
+}
+
+.color-index {
+  background-color: black;
+}
+
+.fs-detail {
+  font-size: $fs-60px;
+  text-shadow: $text-shadow-white;
+}
+
+.h1-detail {
+  color: $color-gold;
+  text-shadow: $text-shadow-gold;
+}
+
+.h3-detail {
+  font-family: $sail;
+  color: $color-gold;
+}
+
+.p-detail {
+  font-family: $red-hat-display;
+}
+
+.a-link {
+  text-decoration: $text-decoration-none;
+  color: $color-black;
+  font-family: $red-hat-display;
+  &:hover {
+    color: $color-red;
+    transition: $transition06;
+  }
+}
+
+.color-secundario {
+  background-color: $color-gold;
+}
+
+.somos-ds {
+  text-shadow: 0 0 30px aqua;
+}

@@ -1,3 +1,88 @@
+/*colors*/
+/*fonts*/
+/*transform/transition*/
+/*margin/padding*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+.bg-nav {
+  background-color: #fcbd29;
+}
+
+.logo {
+  margin-left: 20px;
+  font-family: "libre baskerville", sans-serif;
+}
+
+.nav-link:hover {
+  background-color: #d89d14;
+  transition: all 1s;
+}
+.nav-link:hover:hover {
+  color: white;
+}
+
+.dropdown-servicios {
+  text-decoration: none;
+  color: black;
+}
+.dropdown-servicios:hover {
+  background-color: rgb(148, 138, 138);
+  transition: all 1s;
+  color: blue;
+}
+
+.bg-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../imagenes/foto\ 1\ lavado.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 400px;
+  max-width: 100%;
+}
+
+.color-index {
+  background-color: black;
+}
+
+.fs-detail {
+  font-size: 60px;
+  text-shadow: 0 0 30px white;
+}
+
+.h1-detail {
+  color: #fcbd29;
+  text-shadow: 0 0 30px #fcbd29;
+}
+
+.h3-detail {
+  font-family: "sail", sans-serif;
+  color: #fcbd29;
+}
+
+.p-detail {
+  font-family: "red hat display", sans-serif;
+}
+
+.a-link {
+  text-decoration: none;
+  color: black;
+  font-family: "red hat display", sans-serif;
+}
+.a-link:hover {
+  color: red;
+  transition: all 0.6s;
+}
+
+.color-secundario {
+  background-color: #fcbd29;
+}
+
+.somos-ds {
+  text-shadow: 0 0 30px aqua;
+}
 
 /*# sourceMappingURL=style.css.map */

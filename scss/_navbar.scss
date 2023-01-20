@@ -1,0 +1,27 @@
+.bg-nav {
+  background-color: $color-gold;
+}
+
+.logo {
+  margin-left: $ml-20px;
+  font-family: $libre-baskerville;
+}
+
+.nav-link:hover {
+  background-color: $color-gold-dark;
+  transition: $transition1s;
+  &:hover {
+    color: $color-white;
+  }
+}
+
+.dropdown-servicios {
+  text-decoration: $text-decoration-none;
+  color: $color-black;
+
+  &:hover {
+    background-color: $bg-gray;
+    transition: $transition1s;
+    color: blue;
+  }
+}

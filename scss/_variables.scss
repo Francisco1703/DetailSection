@@ -1,0 +1,34 @@
+/*colors*/
+$color-gold: #fcbd29;
+$color-gold-dark: #d89d14;
+$color-black: black;
+$color-red: red;
+$color-white: white;
+$bg-gray: rgb(148, 138, 138);
+$text-shadow-gold: 0 0 30px #fcbd29;
+$text-shadow-white: 0 0 30px white;
+
+/*fonts*/
+$trispace: "trispace", sans-serif;
+$red-hat-display: "red hat display", sans-serif;
+$fuzzy-bubbles: "fuzzy bubbles", sans-serif;
+$libre-baskerville: "libre baskerville", sans-serif;
+$sail: "sail", sans-serif;
+$fs-60px: 60px;
+
+/*transform/transition*/
+$transition1s: all 1s;
+$transition06: all 0.6s;
+$text-decoration-none: none;
+
+/*margin/padding*/
+$ml-20px: 20px;
+
+$bg-image-index: linear-gradient(rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.6)),
+  url(../imagenes/foto\ 1\ lavado.jpg);
+
+$bg-cover: cover;
+$bg-no-repeat: no-repeat;
+$bg-position-center: center;
+$height-400px: 400px;
+$max-width-100: 100%;
