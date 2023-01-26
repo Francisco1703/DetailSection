@@ -2,6 +2,9 @@
 /*fonts*/
 /*transform/transition*/
 /*margin/padding*/
+/*Carrousel*/
+/*Icon WhatsApp*/
+/*Cards*/
 * {
   margin: 0;
   padding: 0;
@@ -45,7 +48,7 @@
 }
 
 .color-index {
-  background-color: black;
+  background-color: rgb(26, 18, 11);
 }
 
 .fs-detail {
@@ -69,7 +72,7 @@
 
 .a-link {
   text-decoration: none;
-  color: black;
+  color: blanchedalmond;
   font-family: "red hat display", sans-serif;
 }
 .a-link:hover {
@@ -83,6 +86,97 @@
 
 .somos-ds {
   text-shadow: 0 0 30px aqua;
+}
+
+.bg-nosotros {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imagenes/imagen4.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  max-width: 100%;
+}
+
+.p-ds {
+  color: #fcbd29;
+}
+
+.color-nosotros {
+  background-color: rgb(26, 18, 11);
+}
+
+.bg-img-1 {
+  background-image: url(../imagenes/imagen2.jpg);
+  height: 400px;
+  background-position: center;
+  max-width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-img-2 {
+  background-image: url(../imagenes/pulido\ de\ auto.jpg);
+  height: 400px;
+  max-width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-img-3 {
+  background-image: url(../imagenes/imagen3.jpg);
+  height: 400px;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.color-hero {
+  background-color: rgb(26, 18, 11);
+}
+
+/*Icon whatsapp*/
+.whatsapp-icon {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  z-index: 1;
+}
+
+/*cards*/
+.bg-gold {
+  background-color: #fcbd29;
+}
+
+.bg-img {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imagenes/pulido\ de\ auto.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-img2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imagenes/imagen3.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-img3 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../imagenes/limpieza\ de\ tapizado.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.btn-height {
+  height: 200px;
+}
+
+.z-index-nosotros {
+  z-index: 0;
+  position: relative;
 }
 
 /*# sourceMappingURL=style.css.map */

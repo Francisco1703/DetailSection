@@ -4,9 +4,13 @@ $color-gold-dark: #d89d14;
 $color-black: black;
 $color-red: red;
 $color-white: white;
+$color-blanchedalmond: blanchedalmond;
+$color-black-brown: rgb(26, 18, 11);
+$color-brown-black: rgb(26, 18, 11);
 $bg-gray: rgb(148, 138, 138);
 $text-shadow-gold: 0 0 30px #fcbd29;
 $text-shadow-white: 0 0 30px white;
+$text-shadow-aqua: 0 0 30px aqua;
 
 /*fonts*/
 $trispace: "trispace", sans-serif;
@@ -24,11 +28,37 @@ $text-decoration-none: none;
 /*margin/padding*/
 $ml-20px: 20px;
 
-$bg-image-index: linear-gradient(rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.6)),
+$bg-image-index: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
   url(../imagenes/foto\ 1\ lavado.jpg);
+$bg-image-nosotros: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  url(../imagenes/imagen4.jpg);
 
 $bg-cover: cover;
 $bg-no-repeat: no-repeat;
 $bg-position-center: center;
 $height-400px: 400px;
 $max-width-100: 100%;
+$height-200px: 200px;
+
+/*Carrousel*/
+
+$bg-img-1: url(../imagenes/imagen2.jpg);
+$bg-img-2: url(../imagenes/pulido\ de\ auto.jpg);
+$bg-img-3: url(../imagenes/imagen3.jpg);
+
+/*Icon WhatsApp*/
+
+$position-fixed: fixed;
+$margin-20px: 20px;
+$z-index-1: 1;
+
+/*Cards*/
+
+$bg-img-1-cards: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  url(../imagenes/pulido\ de\ auto.jpg);
+
+$bg-img-2-cards: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  url(../imagenes/imagen3.jpg);
+
+$bg-img-3-cards: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+  url(../imagenes/limpieza\ de\ tapizado.jpg);

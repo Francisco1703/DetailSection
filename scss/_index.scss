@@ -2,13 +2,13 @@
   background-image: $bg-image-index;
   background-size: $bg-cover;
   background-repeat: $bg-no-repeat;
-  background-position: center;
+  background-position: $bg-position-center;
   height: $height-400px;
   max-width: $max-width-100;
 }
 
 .color-index {
-  background-color: black;
+  background-color: rgb(26, 18, 11);
 }
 
 .fs-detail {
@@ -32,7 +32,7 @@
 
 .a-link {
   text-decoration: $text-decoration-none;
-  color: $color-black;
+  color: $color-blanchedalmond;
   font-family: $red-hat-display;
   &:hover {
     color: $color-red;
@@ -45,5 +45,98 @@
 }
 
 .somos-ds {
-  text-shadow: 0 0 30px aqua;
+  text-shadow: $text-shadow-aqua;
+}
+
+.bg-nosotros {
+  background-image: $bg-image-nosotros;
+  background-position: $bg-position-center;
+  background-repeat: $bg-no-repeat;
+  background-size: $bg-cover;
+  height: $height-400px;
+  max-width: $max-width-100;
+}
+
+.p-ds {
+  color: $color-gold;
+}
+
+.color-nosotros {
+  background-color: $color-black-brown;
+}
+
+.bg-img-1 {
+  background-image: $bg-img-1;
+  height: $height-400px;
+  background-position: $bg-position-center;
+  max-width: $max-width-100;
+  background-repeat: $bg-no-repeat;
+  background-size: $bg-cover;
+}
+
+.bg-img-2 {
+  background-image: $bg-img-2;
+  height: $height-400px;
+  max-width: $max-width-100;
+  background-position: $bg-position-center;
+  background-repeat: $bg-no-repeat;
+  background-size: $bg-cover;
+}
+
+.bg-img-3 {
+  background-image: $bg-img-3;
+  height: $height-400px;
+  width: $max-width-100;
+  background-position: $bg-position-center;
+  background-repeat: $bg-no-repeat;
+  background-size: $bg-cover;
+}
+
+.color-hero {
+  background-color: $color-brown-black;
+}
+
+/*Icon whatsapp*/
+
+.whatsapp-icon {
+  position: $position-fixed;
+  right: $margin-20px;
+  bottom: $margin-20px;
+  z-index: $z-index-1;
+}
+
+/*cards*/
+
+.bg-gold {
+  background-color: $color-gold;
+}
+
+.bg-img {
+  background-image: $bg-img-1-cards;
+  background-position: $bg-position-center;
+  background-repeat: $bg-no-repeat;
+  background-size: $bg-cover;
+}
+
+.bg-img2 {
+  background-image: $bg-img-2-cards;
+  background-position: $bg-position-center;
+  background-repeat: $bg-no-repeat;
+  background-size: $bg-cover;
+}
+
+.bg-img3 {
+  background-image: $bg-img-3-cards;
+  background-position: $bg-position-center;
+  background-repeat: $bg-no-repeat;
+  background-size: $bg-cover;
+}
+
+.btn-height {
+  height: $height-200px;
+}
+
+.z-index-nosotros {
+  z-index: 0;
+  position: relative;
 }
