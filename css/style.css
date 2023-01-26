@@ -144,6 +144,21 @@
   z-index: 1;
 }
 
+/*Quienes somos*/
+.bg-color-qs {
+  background-color: rgb(26, 18, 11);
+}
+
+.color-qs {
+  background-color: gray;
+  box-shadow: 0 0 30px white;
+  border-radius: 20px;
+}
+
+.text-color {
+  color: #fcbd29;
+}
+
 /*cards*/
 .bg-gold {
   background-color: #fcbd29;

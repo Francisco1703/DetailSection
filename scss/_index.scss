@@ -105,6 +105,22 @@
   z-index: $z-index-1;
 }
 
+/*Quienes somos*/
+
+.bg-color-qs {
+  background-color: $color-brown-black;
+}
+
+.color-qs {
+  background-color: gray;
+  box-shadow: 0 0 30px white;
+  border-radius: 20px;
+}
+
+.text-color {
+  color: $color-gold;
+}
+
 /*cards*/
 
 .bg-gold {
