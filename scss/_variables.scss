@@ -18,6 +18,7 @@ $red-hat-display: "red hat display", sans-serif;
 $fuzzy-bubbles: "fuzzy bubbles", sans-serif;
 $libre-baskerville: "libre baskerville", sans-serif;
 $sail: "sail", sans-serif;
+$courgette: "courgette", sans-serif;
 $fs-60px: 60px;
 
 /*transform/transition*/
@@ -44,7 +45,8 @@ $height-200px: 200px;
 
 $bg-img-1: url(../imagenes/imagen2.jpg);
 $bg-img-2: url(../imagenes/pulido\ de\ auto.jpg);
-$bg-img-3: url(../imagenes/imagen3.jpg);
+$bg-img-3: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+  url(../imagenes/imagen3.jpg);
 
 /*Icon WhatsApp*/
 

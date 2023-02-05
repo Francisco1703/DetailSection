@@ -1,0 +1,35 @@
+.bg-contacto {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../imagenes/fondo-contacto.jpg);
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.checkbox-contacto {
+  font-family: $red-hat-display;
+  margin-top: 3px;
+}
+
+.btn-contacto {
+  font-family: $red-hat-display;
+}
+
+.btn-submit {
+  font-family: $red-hat-display;
+  &:hover {
+    background-color: $color-gold;
+    color: black;
+    font-weight: bolder;
+  }
+}
+
+.btn-reset {
+  font-family: $red-hat-display;
+  &:hover {
+    background-color: red;
+    color: black;
+    font-weight: bolder;
+  }
+}

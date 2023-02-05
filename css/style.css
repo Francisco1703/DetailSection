@@ -106,12 +106,25 @@
 }
 
 .bg-img-1 {
-  background-image: url(../imagenes/imagen2.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../imagenes/imagen3.jpg);
   height: 400px;
   background-position: center;
   max-width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.text-h2-hero {
+  font-family: "sail", sans-serif;
+  font-size: 60px;
+}
+
+.index-span-section {
+  color: #fcbd29;
+}
+
+.index-h3-marketing {
+  font-family: "courgette", sans-serif;
 }
 
 .bg-img-2 {
@@ -124,7 +137,7 @@
 }
 
 .bg-img-3 {
-  background-image: url(../imagenes/imagen3.jpg);
+  background-image: url(../imagenes/imagen2.jpg);
   height: 400px;
   width: 100%;
   background-position: center;
@@ -150,7 +163,7 @@
 }
 
 .color-qs {
-  background-color: gray;
+  background-color: rgb(46, 44, 44);
   box-shadow: 0 0 30px white;
   border-radius: 20px;
 }
@@ -192,6 +205,54 @@
 .z-index-nosotros {
   z-index: 0;
   position: relative;
+}
+
+/*Imagenes de tarjetas*/
+.tarjetas-img {
+  height: 50px;
+}
+
+/*Footer*/
+.div-footer {
+  font-size: 12px;
+}
+
+.img-servicios {
+  height: 300px;
+}
+
+.bg-contacto {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imagenes/fondo-contacto.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.checkbox-contacto {
+  font-family: "red hat display", sans-serif;
+  margin-top: 3px;
+}
+
+.btn-contacto {
+  font-family: "red hat display", sans-serif;
+}
+
+.btn-submit {
+  font-family: "red hat display", sans-serif;
+}
+.btn-submit:hover {
+  background-color: #fcbd29;
+  color: black;
+  font-weight: bolder;
+}
+
+.btn-reset {
+  font-family: "red hat display", sans-serif;
+}
+.btn-reset:hover {
+  background-color: red;
+  color: black;
+  font-weight: bolder;
 }
 
 /*# sourceMappingURL=style.css.map */
